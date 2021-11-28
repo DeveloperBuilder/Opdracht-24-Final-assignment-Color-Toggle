@@ -1,0 +1,94 @@
+    body {
+    background-color: rgb(236, 178, 178);
+    background-image: url(Mountain.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+   }
+   
+    .hamburger-menu {
+    position: fixed;
+    margin-left: 0px;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    background-image: url("img/menu.png");
+    background-color: rgb(219, 130, 56);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+   }
+   
+    .hamburger-menu:hover {
+    cursor: pointer;
+    opacity: 0.6;
+   }
+   
+    .nav-sidebar ul {
+    display: block;
+    padding: 0;
+    margin-top: 60px;
+    overflow: hidden;
+    visibility: hidden;
+   }
+   
+    .nav-sidebar ul li {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: 200px;
+    border-bottom: 1px solid gray;
+   }
+   
+    .nav-sidebar ul li a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(66, 62, 62);
+    white-space: nowrap;
+    padding-left: 25px;
+   }
+
+    .coupon {
+    display: block;
+	width: 170px;
+	padding: 0px;
+	text-align: left;
+	border: 3px dashed rgb(204, 204, 204);
+    top: 850px;
+    background-color: rgba(80, 78, 233, 0.692);
+}
+    
+   .home {
+   background-color: rgb(255, 255, 255);
+   }
+   
+   .purple {
+   background-color: purple;
+   }
+   
+   .orange {
+   background-color: orange;
+   }
+   
+   .red {
+   background-color: red;
+   }
+   
+   .green {
+   background-color: green;
+   }
+
+   .green a:hover, .red a:hover, .orange a:hover, .purple a:hover, .home a:hover {
+    font-size: 20px;
+    font-weight: 600;
+   }
